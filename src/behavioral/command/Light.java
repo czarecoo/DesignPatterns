@@ -5,10 +5,12 @@ public class Light {
 
 	public void turnOn() {
 		isOn = true;
+		printState();
 	}
 
 	public void turnOff() {
 		isOn = false;
+		printState();
 	}
 
 	public void printState() {
@@ -18,5 +20,4 @@ public class Light {
 			System.out.println("Light is off");
 		}
 	}
-
 }
